@@ -8,7 +8,6 @@ body {
   flex-direction: column;
   height: 100vh;
   align-items: center;
-  /* justify-content: center; */
   background-color:hsl(36, 78%, 80%);
   font-size: 13px;
 }
@@ -45,28 +44,39 @@ body {
 
 .preparation-time h2 {
   color: hsl(332, 91%, 32%);
+  margin: 0;
 }
 .preparation-time li {
   color: hsl(32, 19%, 30%);
   padding: 2px;
 }
 
+.instructions {
+  width: 510px;
+  line-height: 16px;
+}
+
 .ingredients h2,
 .instructions h2,
-.nutrition h2 {
+.nutrition h2,
+.kilos {
   color:hsl(14, 49%, 42%);
+  font-weight: bold;
+  margin: 0;
 }
 
 hr {
   opacity: .5;
 }
 
-.instructions ul li {
+.instructions ol li{
   color:hsl(14, 49%, 42%);
-
+  text-align: left;
 }
 
 table td {
-  
+  padding-left: 28px;
 }
+
+
 
