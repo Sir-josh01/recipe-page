@@ -80,3 +80,56 @@ table td {
 
 
 
+@media (max-width: 375px) {
+  /* body {
+    display: block;
+  } */
+
+  .wrapper {
+    width: 100%;
+    padding: 0;
+    font-size: 15px;
+  }
+
+  .image-head-box {
+    width: 330px;
+  }
+
+  .image-head {
+    width: 100%;
+  }
+
+  .write-up {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .title {
+    width: 330px;
+    font-size: 18px;
+  }
+
+  .title h2 {
+    width: ;
+    font-size: 35px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+
+  .ingredients {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .instructions {
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .instructions h2{
+    margin-bottom: 15px;
+  }
+}
+
+
