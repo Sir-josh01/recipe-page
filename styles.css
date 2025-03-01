@@ -13,7 +13,8 @@ body {
 }
 
 .wrapper {
-  max-width: 600px;
+  /* max-width: 600px; */
+  width: 600px;
   display: flex;
   flex-direction: column;
   background-color: hsl(0, 0%, 100%);
@@ -39,7 +40,6 @@ body {
   background-color: lightpink;
   border-radius: 8px;
   padding: 7px;
-
 }
 
 .preparation-time h2 {
@@ -79,20 +79,16 @@ table td {
 }
 
 
-
-@media (max-width: 375px) {
-  /* body {
-    display: block;
-  } */
+@media (max-width: 500px) {
 
   .wrapper {
-    width: 100%;
-    padding: 0;
+    width: 400px;
+    padding: 10px;
     font-size: 15px;
   }
 
   .image-head-box {
-    width: 330px;
+    width: 100%;
   }
 
   .image-head {
@@ -105,31 +101,11 @@ table td {
     padding: 10px;
   }
 
-  .title {
-    width: 330px;
-    font-size: 18px;
-  }
-
-  .title h2 {
-    width: ;
-    font-size: 35px;
-    margin-top: -20px;
-    margin-bottom: 10px;
-  }
-
-  .ingredients {
-    width: 300px;
-    font-size: 15px;
-  }
-
   .instructions {
-    width: 300px;
+    width: 350px;
     font-size: 14px;
   }
 
-  .instructions h2{
-    margin-bottom: 15px;
-  }
 }
 
 
